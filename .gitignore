@@ -2,6 +2,8 @@
 *.obs
 *.ini
 *.local
+*.a
+*.so
 Release
 Release_Build
 Debug_Build

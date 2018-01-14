@@ -97,7 +97,7 @@ tides.o    : $(SRC)/rtklib.h
 qzslex.o   : $(SRC)/rtklib.h
 
 clean :
-	rm -f rnx2rtkp rnx2rtkp.exe *.o *.pos *.trace
+	rm -f rnx2rtkp rnx2rtkp.exe *.o *.pos *.trace *.so
 
 prof :
 	gprof rnx2rtkp > prof.txt
